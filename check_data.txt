@@ -1,0 +1,13 @@
+from app import app, db, User, BloodSugar, FoodLog
+
+with app.app_context():
+    user = User.query.first()
+    readings = BloodSugar.query.filter_by(user_id=user.id).all()
+    foods = FoodLog.query.filter_by(user_id=user.id).all()
+    
+    print(f"👤 User: {user.name}")
+    print(f"📊 Total readings in database: {len(readings)}")
+    print(f"🍽️ Total foods in database: {len(foods)}")
+    print("\nRecent readings:")
+    for r in readings[-5:]:
+        print(f"  - {r.measured_at} | {r.value} mg/dL | {r.kind}")
