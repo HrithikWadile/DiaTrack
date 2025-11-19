@@ -227,12 +227,11 @@ For support, create an issue in the GitHub repository or contact via email.
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+<img width="1890" height="945" alt="image" src="https://github.com/user-attachments/assets/31357458-d1c6-4a05-8a5c-152a8bcbbc2c" />
+
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-*Note: Add screenshots to a `screenshots/` folder in your repository*
+<img width="1888" height="936" alt="image" src="https://github.com/user-attachments/assets/e3a64016-c2ff-4ebb-a158-1c39ac020215" />
 
 ---
 
